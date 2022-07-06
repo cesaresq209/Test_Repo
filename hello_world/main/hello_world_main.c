@@ -13,6 +13,10 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 
+#define MAJOR_VERSION 0
+#define MINOR_VERSION 0
+#define PATCH_VERSION 0
+
 void app_main(void)
 {
     printf("Hello world!\n");
