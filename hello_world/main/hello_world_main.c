@@ -22,9 +22,7 @@ void app_main(void)
 {
     printf("Hello world!\n");
     printf("LCD Initialized \n");
-<<<<<<< Updated upstream
     printf("FW Version on device:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
-    printf("FW Version is installed:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
