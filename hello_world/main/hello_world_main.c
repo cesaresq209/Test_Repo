@@ -21,6 +21,7 @@ void app_main(void)
     printf("LCD Initialized \n");
     printf("FW Version on device:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
     printf("FW Version currently  installed:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
+    printf("Pull request change");
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
