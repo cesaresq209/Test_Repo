@@ -13,10 +13,7 @@
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 #include "LCD.h"
-
-#define MAJOR_VERSION 2
-#define MINOR_VERSION 0
-#define PATCH_VERSION 0
+#include "Version.h"
 
 void app_main(void)
 {
