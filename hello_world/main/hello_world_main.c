@@ -17,7 +17,7 @@
 
 void app_main(void)
 {
-    printf("Hello world!\n");
+    printf("Hello IA Center!\n");
     printf("LCD Initialized \n");
     printf("FW Version on device:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
     printf("FW Version currently  installed:%d.%d.%d \n",MAJOR_VERSION, MINOR_VERSION,PATCH_VERSION );
